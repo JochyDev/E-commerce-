@@ -1,0 +1,19 @@
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+nav > a.active{
+    background-color: rgb(255, 37, 110);
+}
+
+.header-row{
+    width: 100%;
+}
+
+.padding{
+    padding: 10px 20px;
+}
