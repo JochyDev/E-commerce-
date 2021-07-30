@@ -1,0 +1,111 @@
+[debug] [2021-07-16T20:28:09.491Z] ----------------------------------------------------------------------
+[debug] [2021-07-16T20:28:09.499Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-16T20:28:09.501Z] CLI Version:   9.16.0
+[debug] [2021-07-16T20:28:09.501Z] Platform:      win32
+[debug] [2021-07-16T20:28:09.502Z] Node Version:  v14.15.3
+[debug] [2021-07-16T20:28:09.504Z] Time:          Fri Jul 16 2021 16:28:09 GMT-0400 (hora de verano de Cuba)
+[debug] [2021-07-16T20:28:09.505Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-16T20:28:09.513Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-07-16T20:28:09.597Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-16T20:28:09.598Z] > authorizing via signed-in user (joseluisjimenez1998@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\JoshiDev\Desktop\curso de desarrollo Web\13-Angular\Angular Platzi\platzi-store
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-07-16T20:28:34.831Z] > refreshing access token with scopes: []
+[debug] [2021-07-16T20:28:34.836Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-16T20:28:35.664Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Fri, 16 Jul 2021 20:28:35 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-16T20:28:35.764Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-07-16T20:28:36.565Z] Failed to make request: invalid json response body at https://firebase.googleapis.com/v1beta1/projects?pageSize=100 reason: Unexpected token < in JSON at position 0
+[debug] [2021-07-16T20:28:37.525Z] FirebaseError: Failed to make request: invalid json response body at https://firebase.googleapis.com/v1beta1/projects?pageSize=100 reason: Unexpected token < in JSON at position 0
+    at Client.request (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:109:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async getProjectPage (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:233:17)
+    at async getFirebaseProjectPage (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:250:23)
+    at async selectProjectInteractively (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:95:41)
+    at async Object.doSetup [as project] (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:87:27)
+    at async init (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2021-07-16T20:28:52.300Z] ----------------------------------------------------------------------
+[debug] [2021-07-16T20:28:52.308Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-16T20:28:52.309Z] CLI Version:   9.16.0
+[debug] [2021-07-16T20:28:52.310Z] Platform:      win32
+[debug] [2021-07-16T20:28:52.310Z] Node Version:  v14.15.3
+[debug] [2021-07-16T20:28:52.313Z] Time:          Fri Jul 16 2021 16:28:52 GMT-0400 (hora de verano de Cuba)
+[debug] [2021-07-16T20:28:52.313Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-16T20:28:52.323Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-07-16T20:28:52.414Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-16T20:28:52.415Z] > authorizing via signed-in user (joseluisjimenez1998@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\JoshiDev\Desktop\curso de desarrollo Web\13-Angular\Angular Platzi\platzi-store
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-07-16T20:30:55.967Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-16T20:30:55.972Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-16T20:30:56.817Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Fri, 16 Jul 2021 20:30:56 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-16T20:30:57.003Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"platzi-store","name":"3bca2"}
+[debug] [2021-07-16T20:30:58.000Z] <<< HTTP RESPONSE 403 {"content-type":"text/html; charset=UTF-8","referrer-policy":"no-referrer","content-length":"1590","server-timing":"gfet4t7; dur=0","date":"Fri, 16 Jul 2021 20:30:57 GMT","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","connection":"close"}
+[debug] [2021-07-16T20:30:58.000Z] <<< HTTP RESPONSE BODY <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 403 (Forbidden)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>403.</b> <ins>That’s an error.</ins>
+  <p>Your client does not have permission to get URL <code>/v1/projects</code> from this server.  <ins>That’s all we know.</ins>
+
+[debug] [2021-07-16T20:30:58.908Z] FirebaseError: HTTP Error: 403, Unknown Error
+    at module.exports (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:467:12)
+    at Request.<anonymous> (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:467:12)
+    at IncomingMessage.<anonymous> (C:\Users\JoshiDev\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
